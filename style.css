@@ -1,6 +1,6 @@
 * {
     font-family: 'Montserrat', sans-serif;
-    background-color: #fffcff;
+    background-color:#fefffb;
 }
 
 #anim {
@@ -42,6 +42,7 @@ a:link {
   }
 
   /* Responsivity */
+
   @media (max-width: 480px) {
     #anim {
       position: fixed;
