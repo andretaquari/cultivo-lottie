@@ -43,7 +43,7 @@ a:link {
 
   /* Responsivity */
 
-  @media (max-width: 480px) {
+  @media screen and (min-width: 320px) and (max-width: 480px) {
     #anim {
       position: fixed;
       top: 50%;
@@ -58,6 +58,27 @@ a:link {
       text-align: center;
       bottom: 60px;
       left: 50%;
-      margin-left: -196px;
+      margin-left: -196.5px;
+        }
+  }  
+
+  @media screen and (max-width: 320px) {
+    #anim {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      max-width: 320px;
+      margin-top: -140px;
+      margin-left: -160px;
+          }
+    .subtitle {
+      font-size: 70%;
+      color: #473A17;
+      position: fixed;
+      text-align: center;
+      bottom: 60px;
+      left: 50%;
+      width: 300px;
+      margin-left: -150px;
         }
   }  
