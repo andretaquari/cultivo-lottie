@@ -23,22 +23,22 @@
 
 /* unvisited link */
 a:link {
-    color: #473A17;
+    color: #6CA507;
   }
   
   /* visited link */
   a:visited {
-    color: #ACC87A;
+    color: #A07C19;
   }
   
   /* mouse over link */
   a:hover {
-    color: #6CA507;
+    color: #ACC87A;
   }
   
   /* selected link */
   a:active {
-    color: #A07C19;
+    color: #6CA507;
   }
 
   /* Responsivity */
