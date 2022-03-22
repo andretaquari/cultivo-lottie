@@ -1,6 +1,15 @@
 * {
     font-family: 'Montserrat', sans-serif;
-    background-color:#fefffb;
+
+}
+
+body {
+  background: url("src/bg-cultivo.svg");
+  background-size:78%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #f2f3f4;
 }
 
 #anim {
