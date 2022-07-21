@@ -3,5 +3,5 @@ var animation = bodymovin.loadAnimation({
     render: 'svg',
     loop: true,
     autoplay: true,
-    path: 'no-bg2.json'
+    path: 'sign.json'
 })

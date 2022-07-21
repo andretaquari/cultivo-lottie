@@ -4,12 +4,11 @@
 }
 
 body {
-  background: url("src/bg-cultivo-2.svg");
   background-size:85%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-color: #f2f3f4;
+  background-color: #000;
 }
 
 #anim {
@@ -22,39 +21,13 @@ body {
 }
 
 .subtitle {
-    color: #473A17;
+    color: #FFFFFF;
     position: fixed;
     text-align: center;
     bottom: 20px;
     left: 50%;
     margin-left: -197px;
 }
-
-a {
-  color: #6CA507;
-  font-weight: 400;
-}
-
-/* unvisited link */
-a:link {
-    color: #6CA507;
-  }
-  
-/* visited link */
-/* a:visited {
-    color: #6CA507;
-  }  */
-
-/* mouse over link */
-  a:hover {
-    color: #248f24;
-  }
-  
-/* selected link */
-  a:active {
-    color: #248f24;
-    background: #b3ffd9;
-  }
 
   /* Responsivity */
 
